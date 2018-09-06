@@ -1,3 +1,4 @@
+//square star pattern
 #include<iostream>
 using namespace std;
 //using main function
