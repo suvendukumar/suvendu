@@ -1,5 +1,8 @@
+//library function
 #include<iostream>
+//using namespace std
 using namespace std;
+//klar function generation
 int klar(int arr[],int n,int k)
 {
  return arr[k];
@@ -9,6 +12,7 @@ int ksma(int arr[],int n,int k)
 {
  return arr[k];
 }
+//main function
 int main()
 {
  int n;
@@ -32,11 +36,13 @@ int main()
    }
   }
  }
+ //output of program
  cout<<"sorted array"<<endl;
  for(c=0;c<n;c++)
  cout<<arr[c]<<endl;
  cout<<k<<"th smallest element of the array="<<arr[k-1]<<endl;
  cout<<k<<"th largest element of the array="<<arr[n-k]<<endl;
+ //returning 0
  return 0;
 } 
  
